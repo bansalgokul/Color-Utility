@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" className="light">
+			<head>
+				<title>ColorUtility</title>
+			</head>
 			<body
 				className={cn(
 					"min-h-screen font-sans antialiased grainy",
